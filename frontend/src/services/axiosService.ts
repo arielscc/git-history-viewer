@@ -1,5 +1,5 @@
-import axios from 'axios'
+import axios from 'axios';
 
 export const commitInstance = axios.create({
-  baseURL: 'https://git-history-viewer-production.up.railway.app'
-})
+  baseURL: import.meta.env.VITE_GIT_COMMITS_URL
+});
