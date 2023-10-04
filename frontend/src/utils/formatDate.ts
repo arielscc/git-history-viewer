@@ -1,4 +1,3 @@
-// format date from 2023-08-31T22:59:25Z to "February 1, 2021, 11:59 PM"
 export const formatDate = (date: string) => {
   const options: Intl.DateTimeFormatOptions = {
     year: 'numeric',
