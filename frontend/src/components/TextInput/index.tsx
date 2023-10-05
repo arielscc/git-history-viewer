@@ -19,7 +19,7 @@ export const TextInput: FC<TextInputProps> = ({ url, setUrl, getCommits }) => {
         </div>
         <input
           type="search"
-          className="block w-full p-4 pl-10 text-sm border rounded-lg bg-gray-700 dark:border-gray-600 dark:placeholder:text-gray-400 dark:text-white ring-0 focus:border-blue-500 focus:outline-none"
+          className="block w-full p-4 pl-10 text-sm border rounded-lg bg-gray-700 border-gray-600 placeholder:text-gray-400 text-white focus:border-blue-500 focus:outline-none"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           required

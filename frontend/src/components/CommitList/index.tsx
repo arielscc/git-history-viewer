@@ -9,7 +9,7 @@ type CommitProps = {
 
 export const CommitList: FC<CommitProps> = ({ commits, lastItemRef }) => {
   return (
-    <div className="relative border-l border-gray-200 dark:border-gray-700">
+    <div className="relative border-l border-gray-600">
       {commits.map((commit, index) => (
         <div key={commit.sha}>
           {commits.length === index + 1 ? (
