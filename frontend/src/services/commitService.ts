@@ -20,8 +20,7 @@ export const fetchCommits = async (
 
     const response = await commitInstance.get(`/commits/${user}/${repo}`, {
       params: {
-        page: page,
-        perPage: 5
+        page: page
       }
     });
 
